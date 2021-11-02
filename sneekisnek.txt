@@ -13,10 +13,10 @@
              18 STORE_FAST               1 (a)		//a='rwhxi}eomr\\^`Yf]XdThbQd^TYL&\x13g'
 
   8          20 LOAD_GLOBAL              0 (enumerate) 
-             22 LOAD_FAST                1 (a)		//enum(a)=['rwhxi}eomr\\^`Y', 'f]XdThbQd^TYL&\x13g']
+             22 LOAD_FAST                1 (a)		
              24 CALL_FUNCTION            1
              26 GET_ITER			   	//iter(a)
-        >>   28 FOR_ITER                48 (to 78) 	//iter(a).next(), nhảy đến 78 nếu không next()
+        >>   28 FOR_ITER                48 (to 78) 	//iter(a).next(), jump to 78 if no next()
              30 UNPACK_SEQUENCE          2
              32 STORE_FAST               3 (i) 		//i = iter(a).next()
              34 STORE_FAST               4 (b) 		//b = a[i]
