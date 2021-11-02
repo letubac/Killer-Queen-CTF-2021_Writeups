@@ -1,5 +1,5 @@
 # Killer-Queen-CTF-2021_Writeups
- - Xem qua mã nguồn thì chúng ta biết được đó là một đoạn bytecode python
+ - Xem qua mã nguồn thì chúng ta biết được đó là một đoạn python bytecode
  - Chúng ta có thể tham khảo tại: https://www.beyondjava.net/java-programmers-guide-java-byte-code và https://dzone.com/articles/introduction-to-java-bytecode
 
 ![image](https://user-images.githubusercontent.com/57956165/139803348-829e646c-5d3f-4ca8-a94d-c29776be7a34.png)
