@@ -187,7 +187,7 @@
  37         308 LOAD_FAST                0 (a)
             310 GET_ITER
         >>  312 FOR_ITER                80 (to 394)
-            314 STORE_FAST               2 (i) 		//a[i]
+            314 STORE_FAST               2 (i) 		//for i in a:
 
  38         316 LOAD_GLOBAL              1 (str)
             318 LOAD_FAST                2 (i)
@@ -197,7 +197,7 @@
             326 LOAD_CONST              17 (-1)
             328 BUILD_SLICE              3
             330 BINARY_SUBSCR
-            332 STORE_FAST               3 (c)		//c = str(i[::-1])
+            332 STORE_FAST               3 (c)		//c = str(i)[::-1]
 								    
  39         334 LOAD_FAST                3 (c)			    
             336 LOAD_CONST               0 (None)		    
@@ -248,8 +248,8 @@
      '1773911', '1561711', '1582801', '1773911', '1006611', '1516111', '1516111', '1739411', '1728311', '1539421']
 
 b = ''
-a[i]
-c = str(i[::-1])
+
+c = str(i)[::-1]
 c = c[:-1]
 c = int(c)
 c = c ^ 5
