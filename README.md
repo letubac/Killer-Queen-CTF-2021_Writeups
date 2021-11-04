@@ -7,6 +7,9 @@
 
 ![image](https://user-images.githubusercontent.com/57956165/139804739-92604a4b-02f9-4bf3-b251-c83d43345a0a.png)
 - Các mã bytecode tiếp theo thì chúng ta cũng phân tích thành mã python
+
+![image](https://user-images.githubusercontent.com/57956165/140330931-249f0540-cd49-4fd4-addb-07cc739f2876.png)
+
 ==> Chạy chương trình chúng ta nhận được Flag: 
 # kqctf{snek_waas_not_so_sneeki}
 
