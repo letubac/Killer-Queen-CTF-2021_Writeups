@@ -10,5 +10,6 @@
 
 ![image](https://user-images.githubusercontent.com/57956165/140329305-5d154520-3179-4c8c-a2bc-0e97f6d936f2.png)
 
-- Đây là mã nguồn:
+- Đây là mã nguồn, chạy chương trình lên thì ta được flag:
+
 ![image](https://user-images.githubusercontent.com/57956165/139804023-2d00a07d-53d5-46d2-afb8-ef9df8073063.png)
